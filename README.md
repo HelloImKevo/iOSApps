@@ -4,6 +4,18 @@
 
 Simple to Medium-complexity iOS proof-of-concept apps.
 
+## Google Objective-C Style Guide
+https://google.github.io/styleguide/objcguide.html
+
+
+# Important Local IDE Configuration Steps
+Open Settings (`CMD + ,`), go to the Text Editing tab, under Display, check
+**Page guide at column: 100** (change the editable field to 100).
+
+Under **Themes**, select your theme of preference, then Shift or CMD select all 
+of the code symbol entries on the right, then change all the fonts to "Menlo",
+which is much better than the default system Mono font.
+
 
 # Running iOS Simulators on M1 / M2 Macbooks
 You need to go to **Product > Destination > Destination Architecture** and
