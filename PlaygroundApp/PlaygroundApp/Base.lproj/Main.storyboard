@@ -25,6 +25,9 @@
                                     <fontDescription key="titleFontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="60"/>
                                     <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="pressMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HpT-wt-SXu"/>
+                                </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="75" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="NcW-mO-Ij2">
                                 <rect key="frame" x="18" y="648" width="378" height="30"/>
@@ -59,6 +62,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="JPa-u9-cXn" id="57U-ir-MAn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

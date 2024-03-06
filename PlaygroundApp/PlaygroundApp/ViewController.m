@@ -14,9 +14,15 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+  // Call the superclass ViewController's viewDidLoad function.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view.
+  // Display "Banana" by default when the first first loads.
+  self.label.text = @"Banana";
 }
 
+- (IBAction)pressMe:(id)sender {
+  self.label.text = @"Hello";
+}
 
 @end
