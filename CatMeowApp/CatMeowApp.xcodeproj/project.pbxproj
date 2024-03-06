@@ -17,6 +17,9 @@
 		0E70C54F2B97EFDE004BEE9B /* CatMeowAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C54E2B97EFDE004BEE9B /* CatMeowAppTests.m */; };
 		0E70C5592B97EFDE004BEE9B /* CatMeowAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C5582B97EFDE004BEE9B /* CatMeowAppUITests.m */; };
 		0E70C55B2B97EFDE004BEE9B /* CatMeowAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E70C55A2B97EFDE004BEE9B /* CatMeowAppUITestsLaunchTests.m */; };
+		0E70C5682B97F2B4004BEE9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E70C5672B97F2B4004BEE9B /* Cat.wav */; };
+		0E70C5692B97F2B4004BEE9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E70C5672B97F2B4004BEE9B /* Cat.wav */; };
+		0E70C56A2B97F2B4004BEE9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E70C5672B97F2B4004BEE9B /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,7 @@
 		0E70C5542B97EFDE004BEE9B /* CatMeowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatMeowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E70C5582B97EFDE004BEE9B /* CatMeowAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatMeowAppUITests.m; sourceTree = "<group>"; };
 		0E70C55A2B97EFDE004BEE9B /* CatMeowAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatMeowAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0E70C5672B97F2B4004BEE9B /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				0E70C5402B97EFDE004BEE9B /* LaunchScreen.storyboard */,
 				0E70C5432B97EFDE004BEE9B /* Info.plist */,
 				0E70C5442B97EFDE004BEE9B /* main.m */,
+				0E70C5672B97F2B4004BEE9B /* Cat.wav */,
 			);
 			path = CatMeowApp;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				0E70C5422B97EFDE004BEE9B /* LaunchScreen.storyboard in Resources */,
 				0E70C53F2B97EFDE004BEE9B /* Assets.xcassets in Resources */,
 				0E70C53D2B97EFDD004BEE9B /* Main.storyboard in Resources */,
+				0E70C5682B97F2B4004BEE9B /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E70C5692B97F2B4004BEE9B /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E70C56A2B97F2B4004BEE9B /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
