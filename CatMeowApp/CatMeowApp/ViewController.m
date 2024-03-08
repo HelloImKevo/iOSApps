@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "Logger.h"
 
 @interface ViewController ()
 
@@ -27,9 +28,10 @@
 - (IBAction) cat: (id)sender {
   self.label.hidden = NO;
   
+  [Logger debug:@"ViewController.m" message:@"Playing 'Cav.wav' sound"];
   AudioServicesPlaySystemSound(soundID);
   
-  NSLog(@"Starting timer ...");
+  [Logger info:@"ViewController.m" message:@"Starting timer for 1.3 seconds ..."];
   [NSTimer scheduledTimerWithTimeInterval:1.3
                                    target:self
                                  selector:@selector(hideLabel)
@@ -38,6 +40,7 @@
 }
 
 -(void) hideLabel {
+  [Logger warn:@"ViewController.m" message:@"Hiding the 'Meow!!!' UI Label"];
   self.label.hidden = YES;
 }
 

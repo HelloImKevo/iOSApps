@@ -21,6 +21,7 @@
 		0E70C5692B97F2B4004BEE9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E70C5672B97F2B4004BEE9B /* Cat.wav */; };
 		0E70C56A2B97F2B4004BEE9B /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E70C5672B97F2B4004BEE9B /* Cat.wav */; };
 		0EC577412B9A7FBE00C3B54E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC577402B9A7FBD00C3B54E /* AudioToolbox.framework */; };
+		0EC577472B9A8A1F00C3B54E /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC577462B9A8A1F00C3B54E /* Logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		0E70C55A2B97EFDE004BEE9B /* CatMeowAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatMeowAppUITestsLaunchTests.m; sourceTree = "<group>"; };
 		0E70C5672B97F2B4004BEE9B /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
 		0EC577402B9A7FBD00C3B54E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0EC577452B9A87AB00C3B54E /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		0EC577462B9A8A1F00C3B54E /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		0E70C5312B97EFDD004BEE9B /* CatMeowApp */ = {
 			isa = PBXGroup;
 			children = (
+				0EC577432B9A878000C3B54E /* src */,
 				0E70C5322B97EFDD004BEE9B /* AppDelegate.h */,
 				0E70C5332B97EFDD004BEE9B /* AppDelegate.m */,
 				0E70C5352B97EFDD004BEE9B /* SceneDelegate.h */,
@@ -151,6 +155,23 @@
 				0EC577402B9A7FBD00C3B54E /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EC577432B9A878000C3B54E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0EC577442B9A878800C3B54E /* Utilities */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0EC577442B9A878800C3B54E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0EC577452B9A87AB00C3B54E /* Logger.h */,
+				0EC577462B9A8A1F00C3B54E /* Logger.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +311,7 @@
 				0E70C5342B97EFDD004BEE9B /* AppDelegate.m in Sources */,
 				0E70C5452B97EFDE004BEE9B /* main.m in Sources */,
 				0E70C5372B97EFDD004BEE9B /* SceneDelegate.m in Sources */,
+				0EC577472B9A8A1F00C3B54E /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
