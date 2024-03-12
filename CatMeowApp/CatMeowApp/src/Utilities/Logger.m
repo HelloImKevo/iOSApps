@@ -17,8 +17,8 @@ static NSString* logFileNamePrefix = @"iospos_flavor_20240308";
 
 #pragma mark Logging API Functions
 
-// Outputs a log message with format:
-// 24-01-10 12:00:00 [DEBUG] [TAG] > Message contents
+/// Outputs a log message with format:
+/// 24-01-10 12:00:00 [DEBUG] [TAG] > Message contents
 + (void) debug:(NSString * _Nonnull)tag message:(NSString * _Nonnull)message {
   // Reference: NSLog(@"[DEBUG] [%@] > %@", tag, message);
   NSString *content = [NSString stringWithFormat:@"[DEBUG] [%@] > %@", tag, message];
@@ -26,15 +26,15 @@ static NSString* logFileNamePrefix = @"iospos_flavor_20240308";
   [Logger logToFile:content fileNamePrefix:logFileNamePrefix];
 }
 
-// Outputs a log message with format:
-// 24-02-20 12:00:00 [INFO] [TAG] > Message contents
+/// Outputs a log message with format:
+/// 24-02-20 12:00:00 [INFO] [TAG] > Message contents
 + (void) info:(NSString * _Nonnull)tag message:(NSString * _Nonnull)message {
   NSString *content = [NSString stringWithFormat:@"[INFO] [%@] > %@", tag, message];
   [Logger logToFile:content fileNamePrefix:logFileNamePrefix];
 }
 
-// Outputs a log message with format:
-// 24-03-30 12:00:00 [WARN] [TAG] > Message contents
+/// Outputs a log message with format:
+/// 24-03-30 12:00:00 [WARN] [TAG] > Message contents
 + (void) warn:(NSString * _Nonnull)tag message:(NSString * _Nonnull)message {
   NSString *content = [NSString stringWithFormat:@"[WARN] [%@] > %@", tag, message];
   [Logger logToFile:content fileNamePrefix:logFileNamePrefix];

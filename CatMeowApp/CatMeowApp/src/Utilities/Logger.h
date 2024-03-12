@@ -16,13 +16,13 @@
 
 + (NSString* _Nonnull) getLogFileNamePrefix;
 
-// Create a DEBUG-level log message.
+/// Create a DEBUG-level log message.
 + (void) debug:(NSString* _Nonnull)tag message:(NSString* _Nonnull)message;
 
-// Create an INFO-level log message.
+/// Create an INFO-level log message.
 + (void) info:(NSString* _Nonnull)tag message:(NSString* _Nonnull)message;
 
-// Create a WARN-level log message.
+/// Create a WARN-level log message.
 + (void) warn:(NSString* _Nonnull)tag message:(NSString* _Nonnull)message;
 
 // TODO: Move this to a FileHelper utils class.
