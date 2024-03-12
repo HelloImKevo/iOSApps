@@ -5,6 +5,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>LemonMilk.otf</string>
+		<string>Blacksword.otf</string>
+		<string>Moon Flower.ttf</string>
+		<string>SugarstyleMillenial-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
